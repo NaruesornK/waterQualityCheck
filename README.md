@@ -15,8 +15,13 @@
 - MAX485
 
 ## Libraries
-
-...
+- Adafruit DMA NeoPixel Library
+- Adafruit NeoPixel
+- ArduinoJson
+- ModbusMaster
+- PubSubClient
+- Tinker_C6
+- WiFiManager
 
 ## Pinout
 
