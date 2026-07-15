@@ -1,14 +1,30 @@
-# waterQualityCheck
-Arudino IDE บอร์ด ThinkerC6 ใช้ชิป ESP32-C6
+# Water Quality Check
 
-#บอร์ดในการอัพโหลด
-ESP32C6 Dev Module
+## Features
+
+- Read RS485 Modbus sensor
+- WiFiManager configuration
+- MQTT support
+- ESP32-C6
+- OLED Display
+
+## Hardware
+
+- Tinker C6
+- RS485 Sensor
+- MAX485
 
 ## Libraries
-- Adafruit DMA NeoPixel Library
-- Adafruit NeoPixel
-- ArduinoJson
-- ModbusMaster
-- PubSubClient
-- Tinker_C6
-- WiFiManager
+
+...
+
+## Pinout
+
+| Pin | Function |
+|-----|----------|
+| GPIO4 | RX |
+| GPIO5 | TX |
+
+## Result
+
+รูป Serial Monitor
