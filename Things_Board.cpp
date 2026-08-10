@@ -14,13 +14,13 @@ PubSubClient client(espClient);
 //==============================
 const char* MQTT_SERVER = "thingsboard.lesyslab.com";
 const int MQTT_PORT = 1883;
-const char* TOKEN = "JrbWRmMjLTxrI4jtdxjk";
+const char* TOKEN = "8WoofV9qK9yK6UkWfLvI";
 
 //==============================
 // Timer
 //==============================
 unsigned long tbTimer = 0;
-const unsigned long tbInterval = 6000000;      // รอบปกติคือ 20 นาที (1,200,000 ms) ตามที่คุณปรับปรุงล่าสุด
+const unsigned long tbInterval = 600000;      // รอบปกติคือ 10 นาที (600,000 ms) ตามที่คุณปรับปรุงล่าสุด
 bool firstBoot = true;                         // 🌟 ตัวแปรพิเศษ: ใช้เช็คเพื่อให้ส่งทันทีหลังลงชื่อเสร็จครั้งแรก
 
 //======================================
